@@ -1,0 +1,11 @@
+{
+	"name":"example-app",
+	"description":"template for express app",
+	"main":"server.js",
+	"dependencies": {
+		"express":"4.x",
+		"mongoose":"3.x",
+		"body-parser":"1.x",
+		"underscore":"1.x"
+	}
+}
