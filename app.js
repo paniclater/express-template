@@ -9,6 +9,9 @@ var app = express();
 var bodyParser = require('body-parser');
 var _ = require('underscore');
 
+//Models
+var Example = require('./models/ExampleModel');
+
 //if you don't configure body parser you will get undefined when you try to parse json or url params
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
