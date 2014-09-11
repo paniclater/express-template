@@ -2,6 +2,10 @@
 	"name":"example-app",
 	"description":"template for express app",
 	"main":"server.js",
+	"repository": {	
+		"type":"git",
+		"url": "https://github.com/paniclater/express-template.git"
+	},
 	"dependencies": {
 		"express":"4.x",
 		"mongoose":"3.x",
